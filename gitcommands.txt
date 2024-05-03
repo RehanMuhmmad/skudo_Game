@@ -1,0 +1,53 @@
+### GIT ###
+
+Configure user and e-mail
+git config --global user.name ""
+git config --global user.email ""
+
+Clone remote repository
+git clone "url"
+
+Stage all changes
+git add .
+
+Commit staged changes
+git commit -m "commit name"
+
+Commit all changes
+git commit -a "commit name"
+
+Push commits
+git push -u origin main
+
+Change branch
+git checkout branch_name
+
+Create branch
+git branch new_branch
+
+Create branch and change to it
+git checkout -b new_branch
+
+Merge with current branch
+git merge other_branch
+
+Delete local branch
+git branch -d branch_name
+
+Delete remote branch
+git push origin --delete branch_name
+
+Clean references
+git remote prune origin
+
+
+### VENV ###
+
+Create virtual environment
+python -m venv venv
+
+Activate virtual environment
+.\venv\bin\activate
+
+Deactivate virtual environment
+deactivate
